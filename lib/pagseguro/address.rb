@@ -3,6 +3,9 @@ module PagSeguro
   class Address
     include Extensions::MassAssignment
 
+    # Set the required
+    attr_accessor :required
+    
     # Set the street name.
     attr_accessor :street
 
